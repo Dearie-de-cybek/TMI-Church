@@ -1,13 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --color-gold: #D4AF37;
+  --color-purple: #6A0DAD;
+  --color-light: #fdfcf9;
+  --color-dark: #1e1e1e;
+
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+* {
   margin: 0;
-  background-color: beige;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-purple);
+  margin-bottom: 0.5rem;
+}
+
