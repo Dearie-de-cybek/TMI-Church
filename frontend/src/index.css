@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --color-gold: #D4AF37;
   --color-purple: #6A0DAD;
@@ -32,4 +32,4 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-purple);
   margin-bottom: 0.5rem;
 }
-
+ */
